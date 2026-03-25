@@ -22,4 +22,4 @@ The purpose of this project is to showcase my skills, projects, and experience a
 
 ---
 
-## 📂 Project Structure
+
