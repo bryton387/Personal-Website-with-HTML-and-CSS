@@ -1,14 +1,4 @@
-
-#welcome-message {
-    background:black;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    font-weight: bold;
-}
-
-
-
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +30,7 @@ nav a:hover {
     color: #00adb5;
 }
 
+/* HERO */
 .hero {
     text-align: center;
     padding: 80px 20px;
@@ -51,7 +42,7 @@ nav a:hover {
     font-size: 2.5rem;
 }
 
-
+/* BUTTON */
 .btn {
     display: inline-block;
     margin-top: 20px;
@@ -91,6 +82,7 @@ section {
     gap: 20px;
 }
 
+/* PROJECT CARD */
 .project-card {
     background: #f4f4f4;
     padding: 20px;
@@ -109,54 +101,8 @@ footer {
     background: #111;
     color: white;
 }
-#about {
-    background: 
-        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-        url("assets/photo-1774031826492-3d859b950574.avif");
-    background-size: cover;
-    background-position: center;
-    color: black;
-}
 
-#projects {
-    background: 
-        linear-gradient(rgba(0, 173, 181, 0.7), rgba(0, 0, 0, 0.7)),
-        url("assets/photo-1774031826492-3d859b950574.avif");
-    background-size: cover;
-    background-position: center;
-    color:black
-}
-section {
-    border-bottom: 2px solid rgba(255,255,255,0.2);
-}
-
-#contact {
-    background: #111;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-}
-
-.socials {
-    margin-top: 20px;
-}
-
-.socials a {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px 15px;
-    background: #00adb5;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-
-.socials a:hover {
-    background: white;
-    color: #00adb5;
-}
-
+/* RESPONSIVE */
 @media (max-width: 600px) {
     .hero h2 {
         font-size: 1.8rem;
